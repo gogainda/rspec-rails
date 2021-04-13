@@ -21,7 +21,7 @@ jobs:
            allow_failure: true
            env:
              RAILS_VERSION: '~> 6.1.0'
-         - ruby: truffleruby-head
+         - ruby: 2.7
            env:
              RAILS_VERSION: '~> 6.1.0'
          - ruby: truffleruby-head
